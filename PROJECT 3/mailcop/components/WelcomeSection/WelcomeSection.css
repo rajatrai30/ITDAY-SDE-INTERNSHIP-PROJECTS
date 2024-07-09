@@ -1,0 +1,38 @@
+.Container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.Resellers {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.Reseller {
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+  height: 40px;
+  text-align: center;
+  width: 40px;
+}
+
+.Reseller img {
+  border-radius: 50%;
+  border: 4px solid #fff;
+  margin-right: 0.5rem;
+  object-fit: contain;
+}
+
+span {
+  width: 100%;
+}
+
+.bannerImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

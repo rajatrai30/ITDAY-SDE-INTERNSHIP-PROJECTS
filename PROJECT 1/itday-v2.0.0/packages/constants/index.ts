@@ -1,0 +1,1 @@
+export const mainTitle = `Foundational Software \n of Tomorrow. Delivered Today.™`

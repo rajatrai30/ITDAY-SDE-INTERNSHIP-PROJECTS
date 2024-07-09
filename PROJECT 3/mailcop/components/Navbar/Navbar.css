@@ -1,0 +1,26 @@
+.navbarHamburgerMenuButton svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.navbarHamburgerMenuButton {
+  display: block;
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+@media screen and (max-width: 64rem) {
+  .NavItems{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  .navbarHamburgerMenuButton {
+    display: none;
+  }
+  .NavItems{
+    display: none;
+  }
+}

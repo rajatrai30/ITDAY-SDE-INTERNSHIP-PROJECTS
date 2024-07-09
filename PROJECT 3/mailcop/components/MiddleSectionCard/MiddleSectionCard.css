@@ -1,0 +1,63 @@
+.AbsoluteMiddle {
+  display: false;
+  height: 12rem;
+  width: 12rem;
+  transform: translate(-24%, 28%);
+}
+
+.MiddleAbsoluteContents {
+  position: absolute;
+  z-index: 10;
+  padding: 24px;
+}
+
+.middlesectioncard {
+  color: #112437;
+  overflow: hidden;
+  cursor: pointer;
+  /* border-radius: 15px; */
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
+  /* box-shadow: 2px 3px 10px rgba(0, 0, 0, 2); */
+  border: 2px solid #e1e1e1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  padding: 9px;
+  transition: 0.5s ease-in-out;
+}
+
+.middlesectioncard:hover {
+  transition: 0.3s ease-in-out;
+  border: 2px solid #e1e1e1;
+  background: #112437;
+  color: #fff;
+}
+
+.middlesectioncard img {
+  width: 273px;
+  background-position: center;
+  background-size: cover;
+}
+@media screen and (min-width: 64rem) {
+  .middlesectioncard {
+    width: 333px;
+    height: 468px;
+    /* margin: 20px; */
+  }
+}
+@media screen and (max-width: 64rem) {
+  .middlesectioncard {
+    width: 333px;
+    height: 468px;
+    /* margin: 20px; */
+  }
+}
+@media screen and (max-width: 700px) {
+  .middlesectioncard {
+    width: 333px;
+    height: 468px;
+    /* margin: 10px; */
+  }
+}
